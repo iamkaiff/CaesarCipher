@@ -1,6 +1,5 @@
 # CaesarCipher
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
-[![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/)
 [![PyPI - License](https://img.shields.io/pypi/l/action-hero?style=flat-square)](https://github.com/kadimisetty/action-hero/blob/master/LICENSE)
 
 Caesar Cipher in Cryptography. The Caesar Cipher technique is one of the earliest and simplest method of encryption technique. It's simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter some fixed number of positions down the alphabet.
@@ -38,7 +37,7 @@ Function:- https://github.com/iamkaiff/CaesarCipher/blob/master/Decrypt.java#L20
 For Compilation of code just give this command on cmd for particular code:-
 
                 javac Encrypt.java/ Decrypt.java
-To perform encrpytion/decryption just give this command on cmd after compilation of Encrypt code:- 
+To perform encrpytion/decryption just give this command on cmd after compilation of Encrypt/Decrypt code:- 
 
                      java Encrypt/Decrypt
                     
