@@ -5,7 +5,7 @@
 Caesar Cipher in Cryptography. The Caesar Cipher technique is one of the earliest and simplest method of encryption technique. It's simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter some fixed number of positions down the alphabet.
 
 # Working
-[![https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/](svg/ex.png)
+[![geeksforgeeks](https://media.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png)](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/)
 
 For example with a shift of 1, A would be replaced by B, B would become C, and so on. The method is apparently named after Julius Caesar, who apparently used it to communicate with his officials.
 Thus to cipher a given text we need an integer value, known as shift which indicates the number of position each letter of the text has been moved down.
