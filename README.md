@@ -1,6 +1,6 @@
 # CaesarCipher
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
-[![PyPI - License](https://img.shields.io/pypi/l/action-hero?style=flat-square)](https://github.com/kadimisetty/action-hero/blob/master/LICENSE)
+
 
 Caesar Cipher in Cryptography. The Caesar Cipher technique is one of the earliest and simplest method of encryption technique. It's simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter some fixed number of positions down the alphabet.
 
@@ -24,7 +24,7 @@ Procedure:
       Return the new string generated.
 
 # Encryption
-![](svg/enc.png)
+![](svg/enc.png)https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/
 
 Function:- https://github.com/iamkaiff/CaesarCipher/blob/master/Encrypt.java#L20 
 
@@ -44,3 +44,6 @@ To perform encrpytion/decryption just give this command on cmd after compilation
 So, thats All for now!
 
 Have Fun :-)
+
+# Credits
+A big thanks to www.javahungry.blogspot.com for helping me to make this project quite simple and bring this thing in front of you people.
