@@ -8,10 +8,14 @@ public class Encrypt {
 	   input from user by using util package
 	   and we take predefined object "System.in" */ 
 	Scanner sc = new Scanner(System.in);
-        System.out.println(" Input the plaintext message : ");
+        System.out.println(" Input the plaintext message(Do not enter numbers) : ");
         String plaintext = sc.nextLine();
         System.out.println(" Enter the value by which each character in the plaintext message gets shifted : ");
         int shift = sc.nextInt();
+	if(shift>25){
+	System.out.println("Invalid shift Input");
+		return;
+	}
         String ciphertext = "";
         char alphabet;
         for(int i=0; i < plaintext.length();i++) 
