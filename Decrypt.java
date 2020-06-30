@@ -8,10 +8,14 @@ public class Decrypt {
 	   input from user by using util package
 	   and we take predefined object "System.in" */ 
 	Scanner sc = new Scanner(System.in);
-        System.out.println(" Input the ciphertext message : ");
+        System.out.println(" Input the ciphertext message(Do not enter Numbers) : ");
         String ciphertext = sc.nextLine();
         System.out.println(" Enter the shift value : ");
         int shift = sc.nextInt();
+	if(shift>25){
+	System.out.println("Invalid shift Input");
+		return;
+	}
         String decryptMessage = "";
         for(int i=0; i < ciphertext.length();i++)  
 
