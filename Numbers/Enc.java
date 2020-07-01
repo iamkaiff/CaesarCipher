@@ -9,7 +9,7 @@ class Enc{
 	   input from user by using util package
 	   and we take predefined object "System.in" */ 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter your PlainText: ");
+        System.out.print("Enter your PlainText(only Numbers): ");
         String message = scan.nextLine();
         int length = message.length();
         System.out.print("Enter the Key: ");
