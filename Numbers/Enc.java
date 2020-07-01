@@ -14,6 +14,10 @@ class Enc{
         int length = message.length();
         System.out.print("Enter the Key: ");
         int key = scan.nextInt();
+	    if(key>19){
+		    System.out.println("Invalid Key");
+		    return;
+	    }	    
         String numbers = "0123456789";
         System.out.print("The encrypted Text is: ");
         for(int i = 0 ;i < length ;i++)
