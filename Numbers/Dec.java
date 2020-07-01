@@ -9,11 +9,15 @@ class Dec{
 	   input from user by using util package
 	   and we take predefined object "System.in" */ 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter your ciphertext: ");
+        System.out.print("Enter your ciphertext(only Numbers): ");
         String message = scan.nextLine();
         int length = message.length();
         System.out.print("Enter the Key: ");
         int key = scan.nextInt();
+	    if(key>19){
+		    System.out.println("Invalid Key");
+		    return;
+	    }	    
         String numbers = "0123456789";
         System.out.print("The plain Text is: ");
         for(int i = 0 ;i < length ;i++)
